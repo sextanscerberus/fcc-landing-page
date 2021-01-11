@@ -1,0 +1,149 @@
+html {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 10px;
+    background: #eeeeee;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 3em;
+    margin: 40px 0 30px 0;
+    font-style: oblique;
+}
+
+
+/* header */
+
+header {
+    background: #eeeeee;
+    position: fixed;
+    padding: 15px 5px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#header-img {
+    margin: auto 10px;
+    width: 480px;
+    height: auto;
+}
+
+nav {
+    float: right;
+    font-size: 2em;
+    padding-top: 15px;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a {
+    display: inline;
+    margin-right: 65px;
+}
+
+
+/* section: intro */
+
+#intro {
+    margin-top: 120px;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#intro h2 {
+    margin: 5px;
+}
+
+#form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#email {
+    transform: scale(1.2);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#email:focus {
+    outline: none;
+    border: orangered solid 2px;
+}
+
+
+/* section: features */
+
+#features-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature-text {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.feature {
+    margin: auto;
+}
+
+
+/* section: pricing */
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prices {
+    border: 1px solid black;
+    padding: 35px 45px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    line-height: 25px;
+}
+
+.header-prices {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+/* footer */
+
+footer {
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    height: 40px;
+    background: gray;
+    margin: 60px auto 0 auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 1050px) {
+    #header-img {
+        width: 240px;
+    }
+}
